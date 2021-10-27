@@ -1,0 +1,23 @@
+{
+    "name": "rubykeys",
+    "displayName": "RubyKeys",
+    "description": "A set of keymaps to make Ruby and Ruby on Rails sane to use on British keyboards",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "shift+`",
+                "command": "type",
+                "args": {
+                    "text": "|"
+                }
+            }
+        ]
+    }
+}
